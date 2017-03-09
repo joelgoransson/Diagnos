@@ -4,6 +4,13 @@
 		<title>Homepage</title>
 	</head>
 	<body>
-		<a href="/index">tillbaka här!</a>
+		<a href="/">tillbaka här!</a>
+		<form action="/contact" method="post">
+			<label for="id_name">Vad heter du?:</label>
+			<input type="text" name="name" id="id_name">
+			<label for="id_email">Email?</label>
+			<input type="email" name="email" id="id_email">
+			<button type="submit">Skicka!</button>
+		</form>
 	</body>
 </html>
